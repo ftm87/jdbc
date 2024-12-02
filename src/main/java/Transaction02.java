@@ -12,7 +12,7 @@ public class Transaction02 {
         String sql1 = "INSERT INTO hesaplar2 VALUES (?,?,?) ";
         PreparedStatement prst1 = connection.prepareStatement(sql1);
         prst1.setInt(1, 1234);
-        prst1.setString(2,"FredD");
+        prst1.setString(2,"Fred");
         prst1.setDouble(3,9000);
         prst1.executeUpdate();
 
