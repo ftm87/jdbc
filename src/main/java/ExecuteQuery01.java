@@ -16,6 +16,7 @@ public class ExecuteQuery01 {
 
        //n04-ADIM
         System.out.println("--------------------ÖRNEK 1------------------------");
+
         //ÖRNEK 1:id'si 5 ile 10 arasında olan ülkelerin "country_name" bilgisini listeleyiniz.
 
         String sql1="SELECT country_name FROM countries WHERE  id BETWEEN 5 AND 10";
@@ -44,7 +45,8 @@ public class ExecuteQuery01 {
         System.out.println("...............ORNEK2............");
       //Ornek:phone_code u 200 den buyuk olan ulkelerin "phone_code" ve "country_name" bilgisini listeleyiniz
 
-     ResultSet rs2=st.executeQuery("select phone_code,country_name from  countries "+"where phone_code>200 order by phone_code");
+     ResultSet rs2=st.executeQuery("select phone_code,country_name from  countries "+
+             "where phone_code>200 order by phone_code");
 
      while (rs2.next()){
          System.out.println("ulke adi :"+rs2.getString("country_name")+

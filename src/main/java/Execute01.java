@@ -49,7 +49,7 @@ public class Execute01 {
               execute(" CREATE TABLE IF NOT EXISTS workers(worker_id INT,worker_name VARCHAR(50), salary REAL)");
 
 
-        System.out.println("sql1 :"+sql1);//false
+        System.out.println("sql1 :"+sql1);//false veri gelmeyecegi iicn
 
         //ÖRNEK 2:"workers" tablosuna VARCHAR(20) tipinde "city" sütununu ekleyiniz.
        // tekrar calisinca ayni sutunu eklemeye calisir .buyuzden yoruma aldik
