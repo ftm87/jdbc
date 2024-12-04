@@ -7,11 +7,11 @@ import java.sql.*;
 
 public class C03_CityTest {
 
-          /*
-connect to the database
-get city names from the 'cities' table
-verify that there are at least 10 city names in the city_name column
-close the connection
+              /*
+    connect to the database
+    get city names from the 'cities' table
+    verify that there are at least 10 city names in the city_name column
+    close the connection
     */
 
 
